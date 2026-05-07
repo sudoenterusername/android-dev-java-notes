@@ -1,4 +1,3 @@
-[Notes for Android Dev With Java.md](https://github.com/user-attachments/files/27499157/Notes.for.Android.Dev.With.Java.md)
 >First and foremost, you can right click on the elements that are on the Palette and select "Android Documentation" to learn more about them. Might help while designing layouts.
 
 **Constraint Layout** is the base of a screen basically. The background or whatever you want to call that. Relative Layouts were used before **Constraint Layouts**. There are also **Linear Layouts**.
