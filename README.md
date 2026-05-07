@@ -23,6 +23,7 @@ Wrap content for view layout_width or layout_height doesn't respect constraints.
 Start and end properties were introduced in API 17, depending on the scrollbar's position, its indicators change, and for example, if you want to use a right indicator for a right leaning view, you can use right and end to allow compatibility with right to left languages like Persian or Arabic. Or likewise, left and start. **(This doesn't really make sense anymore though, just use end instead of right and end as any device before API 17 doesn't really exist right now.)**
 
 Start = Left
+
 End = Right
 
 While developing, test:
@@ -34,6 +35,7 @@ While developing, test:
 - How the experience differs with gesture, 3 buttons and on screen keyboard (all of these change the available screen space)
 
 Widgets are subclasses of View. For example, android.widget.EditText extends android.view.View
+
 Yes, widgets are indeed views.
 
 R class -> resources
